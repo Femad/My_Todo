@@ -1,0 +1,18 @@
+.app--container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.app--header {
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+ul {
+  padding-top: 15px;
+  width: 95%;
+
+  margin: 0 auto;
+}

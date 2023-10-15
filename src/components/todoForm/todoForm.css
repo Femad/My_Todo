@@ -1,0 +1,81 @@
+.form__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  width: 95%;
+  border-radius: 5px;
+  border: 1px solid blue;
+  padding: 8px;
+  margin: 0 auto 10px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 15px;
+}
+input {
+  border-radius: 5px;
+  border: 1px solid blue;
+  padding: 5px;
+}
+.todo__title_input {
+  width: 200px;
+}
+.todo__desc_input {
+  width: 300px;
+}
+label {
+  color: blue;
+  margin-right: 5px;
+  font-weight: bold;
+}
+.submit__large {
+  background-color: rgb(99, 99, 233);
+  width: 80%;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 16px;
+}
+.submit__large:hover {
+  background-color: rgb(137, 137, 209);
+  width: 80%;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 16px;
+}
+.update__large {
+  background-color: rgb(243, 87, 87);
+  width: 80%;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 16px;
+}
+.update__large:hover {
+  background-color: rgb(216, 93, 93);
+  width: 80%;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 16px;
+}
