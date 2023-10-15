@@ -8,7 +8,7 @@
 form {
   width: 95%;
   border-radius: 5px;
-  border: 1px solid blue;
+  border: 1px solid rgb(217, 217, 224);
   padding: 8px;
   margin: 0 auto 10px auto;
   display: flex;
